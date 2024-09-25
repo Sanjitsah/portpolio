@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fascinate&family=Fira+Sans&family=Lato:ital,wght@0,100;0,300;1,400&family=Oswald:wght@200&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fascinate&family=Fira+Sans&family=Lato:ital,wght@0,100;0,300;1,400&family=Oswald:wght@200&family=Roboto+Condensed:wght@700&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: #d9d0d0;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition:transform o.3sec ease-in;
+}
+.sidebar nav{
+    margin-top: 25px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size:30px ;
+    padding: 20px 20px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+
+}
+.main{
+    /* background-color: cyan; */
+    width: 80vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: yellow; */
+    height:68vh ;
+    width: 75vw;
+    margin: 72px auto;
+    justify-content: space-around;
+    display: flex;
+}
+.devinfo{
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.devpic img{
+    height: 68vh;
+}
+.hello{
+    font-size: 35px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.name{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 32px;
+
+}
+.about{
+
+    font-size: 20px;
+}
+.moreabout{
+    margin-top: 10px;
+}
+.button{
+    margin-top: 32px;
+    display: flex;
+}
+.button button{
+    padding: 5px;
+    border: 2px solid beige;
+    border-radius: 23px;
+    color: white;
+    background-color: #2196f3;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.button button:hover{
+    background-color: red;
+    color: white;
+}
+.contact-form{
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.contact-form h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+}
+.contact-form div{
+    padding: 10px 0px;
+
+
+}
+.contact-form div input{
+    width: 15vw;
+    border-radius: 15px;
+    padding: 4px;
+    margin-top: 10px;
+
+}
+#isclient{
+    width: 20px;
+
+}
+.btn-btn-primary{
+    width: 10vw;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 21px;
+    margin-top: 10px;
+    background: black;
+    color: white;
+}
+.btn-btn-primary:hover{
+    background-color: #2196f3;
+    color: red;
+    transition-delay: 1ms;
+
+}
+#emailHelp{
+    font-size: 12px;
+}
+ /* blogs part   */
+ #blogcontainer{
+    margin: 30px 0px 0px 79px;
+ }
+
+ .blogitem h2{
+    margin: 16px;
+    font-size: 30px;
+}
+
+ 
+ .blogitem p{
+    margin: 25px;
+
+ }
+ #btn{
+    margin: 23px;
+    background-color: #2aace1;
+    padding: 6px;
+    border-radius: 16px;
+    border: none;
+    color:white;
+    width: 90px;
+}
+#btn:hover{
+    background-color: red;
+}
+/* my intro */
+.myinfo h1{
+    color: #2196f3;
+    
+
+}
+.myinfo p{
+    margin-top: 23px;
+
+}
+.skill{
+    height: 17px;
+    width: 220px;
+    background-color: red;
+    margin-bottom: 18px;
+}
+
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    display: flex;
+
+}
+.ham{
+    padding-left: 7px;
+    
+}
+.cross{
+    margin-left: 110px;
+}
+@media screen and (max-width: 850px) {
+    .sidebar{
+        position: absolute;
+    }
+    .infocontainer{
+        flex-wrap: wrap;
+    }
+    .devpic{
+        display: none;
+    }
+    .button{
+        display: contents;
+    }
+    }
+    .sidebarGo{
+        transform: translate(-210px, 0px);
+        position: absolute;
+    }
+
+
